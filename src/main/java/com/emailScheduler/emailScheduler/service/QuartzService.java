@@ -35,7 +35,7 @@ public class QuartzService extends QuartzJobBean {
         emailService.sendEmail(email);
       } catch (MessagingException e) {
         e.printStackTrace();
-      } 
+      }
     });
 
 

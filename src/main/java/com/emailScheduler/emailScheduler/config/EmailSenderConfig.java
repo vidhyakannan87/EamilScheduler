@@ -13,7 +13,7 @@ public class EmailSenderConfig {
   @Value("${mail.username}")
   private String username;
 
-  @Value("${mail.password.vidhya}")
+  @Value("${mail.password.local}")
   private String password;
 
   @Value("${mail.host}")
